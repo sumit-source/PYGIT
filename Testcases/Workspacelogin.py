@@ -38,14 +38,13 @@ driver.find_element(By.XPATH, "//*[@class='absolute right-[15px] cursor-pointer'
 driver.find_element(By.XPATH, "//input[@placeholder='Enter Title']").clear()
 driver.find_element(By.XPATH, "//input[@placeholder='Enter Title']").send_keys("E-Invoice")
 driver.find_element(By.XPATH, "//*[@class='absolute right-[15px] cursor-pointer'][1]").click()
-driver.find_element(By.XPATH, "//*[@class='w-[16px]']").click()
+driver.find_element(By.XPATH, "//input[@id='file-upload']").send_keys("C:\\Users\\sumit.dubey\\Downloads\\logo 1.png")
+driver.find_element(By.XPATH, "(//*[@class='absolute right-[15px] cursor-pointer'])[2]").click()
 driver.find_element(By.XPATH, "//input[@placeholder='Tagline']").click()
 driver.find_element(By.XPATH, "//input[@placeholder='Tagline']").clear()
 driver.find_element(By.XPATH, "//input[@placeholder='Tagline']").send_keys("From Acquisition to Retention Automation")
+driver.find_element(By.XPATH, "(//*[@class='absolute right-[15px] cursor-pointer'])[2]").click()
 
-driver.find_element(By.XPATH, "//input[@id='file-upload']").send_keys("C:\\Users\\sumit.dubey\\Downloads\\logo 1.png")
-
-# driver.find_element(By.XPATH, "//body/div/div/div/div/div/div/div/div/div/main/div/div/div/div/div/div[4]/div[2]/img[1]").click()
 
 # if "Zence" in
 #driver.find_element(By.XPATH, "//img[@class='w-[30px] cursor-pointer']").click()
